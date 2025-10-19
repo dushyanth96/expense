@@ -1,0 +1,23 @@
+{
+  "name": "expense-app",
+  "version": "1.0.0",
+  "description": "A simple expense tracking application.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo 'Build step can be added here'",
+    "deploy": "gh-pages -d docs"
+  },
+  "keywords": [
+    "expense",
+    "tracker",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "live-server": "^1.2.1"
+  }
+}
